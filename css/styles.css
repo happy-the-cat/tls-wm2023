@@ -39,4 +39,34 @@ body {
     }
 }
 
+/* Vox Populi */
+@media only screen and (max-width: 767.98px) {
+    .waterfall {
+        margin: 5rem 5px;
+    }
+}
+@media only screen and (min-width: 767.99px) {
+    .waterfall {
+        margin: 6rem 5rem;
+    }
+}
+.waterfall {
+	height: 100vh;
+	overflow: auto;
+}
+.waterfall-item img {
+    /* box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    -moz-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, .4);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2); */
+    display: block;
+    /* border-radius: 10px; */
+}
+.waterfall-item img:hover {
+    /* box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -moz-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    -webkit-box-shadow: 0 1px 5px rgba(34, 25, 25, .8);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #979797, direction = 135, strength = 3); */
+}
+
 /* Footer */
