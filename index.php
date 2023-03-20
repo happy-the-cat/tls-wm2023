@@ -7,9 +7,12 @@
 
 
     <!-- Vox Populi -->
-    <div class="waterfall">
-        <div id="waterfall-container"></div>
+    <div class="vox-populi">
+        <div class="waterfall">
+            <div id="waterfall-container"></div>
+        </div>
     </div>
+    
     <!-- For testing purposes. Remove this later. -->
     <div>
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque mollitia deserunt incidunt totam cupiditate corrupti perspiciatis debitis. Tempora ratione atque enim quo quasi? Aperiam assumenda cum culpa esse illo.</h2>
@@ -36,7 +39,7 @@
     <script>
     $('#waterfall-container').waterfall({
         itemCls: 'waterfall-item',
-        colWidth: 222,  
+        colWidth: 215,  
         gutterWidth: 15,
         gutterHeight: 15,
         isFadeIn: true,

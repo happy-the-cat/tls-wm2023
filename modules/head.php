@@ -8,4 +8,5 @@
     
     <!--TO DO-->
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/vox-populi.css">
 </head>

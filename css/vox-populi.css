@@ -1,0 +1,51 @@
+/* Vox Populi */
+/* margin for mobile & desktop */
+@media only screen and (max-width: 767.98px) {
+    .waterfall {
+        margin: 5rem 2rem;
+		padding: 2rem 0.5rem;
+    }
+}
+@media only screen and (min-width: 767.99px) {
+    .waterfall {
+        margin: 6rem 5rem;
+		padding: 1rem;
+    }
+}
+
+.waterfall {
+	height: 90vh;
+    overflow-y: scroll;
+    background-color: var(--brown);
+    /* for Firefox compatibility */
+    scrollbar-color: rgba(192, 155, 155, 1) var(--brown); /* <scrollbar thumb color> <scrollbar track color>  250, 242, 242*/
+}
+/* Scrollbar color for other browsers */
+.waterfall-container::-webkit-scrollbar-thumb {
+    background-color: rgba(192, 155, 155, 1);
+}
+.waterfall-container::-webkit-scrollbar-track {
+    background-color: var(--brown);
+}
+
+.waterfall-item img {
+    box-shadow: 0 1px 3px rgba(255,255,255, .4);
+    -moz-box-shadow: 0 1px 3px rgba(255, 255, 255, .4);
+    -webkit-box-shadow: 0 1px 3px rgba(255, 255, 255, .4);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2);
+    display: block;
+    border-radius: 10px;
+}
+.waterfall-item img:hover {
+    box-shadow: 0 1px 5px rgba(255, 255, 255, .8);
+    -moz-box-shadow: 0 1px 5px rgba(255, 255, 255, .8);
+    -webkit-box-shadow: 0 1px 5px rgba(255, 255, 255, .8);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color = #979797, direction = 135, strength = 3);
+}
+
+/* Scroll down button */
+@keyframes bounce {
+	50% {
+	  transform: translateY(-50%);
+	}
+}
