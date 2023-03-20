@@ -11,8 +11,13 @@
         <div class="waterfall">
             <div id="waterfall-container"></div>
         </div>
+        <div class="chevron-container">
+            <div>
+                <span class="chevron"></span>
+                <div class="text">Scroll</div>
+            </div>
+        </div>
     </div>
-    
     <!-- For testing purposes. Remove this later. -->
     <div>
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloremque mollitia deserunt incidunt totam cupiditate corrupti perspiciatis debitis. Tempora ratione atque enim quo quasi? Aperiam assumenda cum culpa esse illo.</h2>
