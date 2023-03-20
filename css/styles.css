@@ -5,11 +5,18 @@
     --pink-0: #F1D1D1;
     --pink-1: #F3E1E1;
     --pink-2: #FAF2F2;
+    /* Font Styles */
+    /* MUST ADD FALLBACK FONT FOR OLD BROWSERS w/o using CSS variables */
+    --main-font: "Cardo"; /* Fallback font: Garamond */
+    --sub-font: "Inter";  /* Fallback font: Verdana */
+    --alt-main-font: "Lora";
 }
 
 /* Website Body */
 body {
     background: var(--pink-2);
+    font-family: Garamond;  /* Legacy fallback */
+    font-family: var(--main-font), var(--alt-main-font);
 }
 
 /* Header */

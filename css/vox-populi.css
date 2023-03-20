@@ -82,6 +82,8 @@ https://codepen.io/nxworld/pen/OyRrGy
 	}
 }
 .chevron-container .text {
+	font-family: Verdana, sans-serif;  /* Legacy fallback */
+	font-family: var(--sub-font);
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
