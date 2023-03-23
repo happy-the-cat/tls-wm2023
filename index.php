@@ -4,5 +4,6 @@
 <body>
     <?php require_once 'modules/header.php'; ?>
     <!--TO DO-->
+    <?php require_once 'modules/footer.php'; ?>
 </body>
 </html>

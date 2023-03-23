@@ -1,4 +1,6 @@
 /* CSS Variables */
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter:wght@500&family=Lora&display=swap');
+
 :root {
     /* Palette */
     --brown: #7D5A5A;
@@ -7,9 +9,17 @@
     --pink-2: #FAF2F2;
 }
 
+/* Font Cheat Sheet
+font-family: 'Cardo', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+*/
+
 /* Website Body */
 body {
     background: var(--pink-2);
+    padding: 0;
+    margin: 0;
 }
 
 /* Header */
@@ -40,3 +50,105 @@ body {
 }
 
 /* Footer */
+.footer {
+    background-color: var(--brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 1.875em;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.footer p {
+    font-family: 'Cardo', serif;
+}
+
+.footer .left {
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.footer .left .logo {
+    max-height: 5em;
+    width: 5em;
+}
+
+.footer .left p {
+    text-align: center;
+    color: var(--pink-1);
+    margin-top: 1.5em;
+    font-size: 1.3em;
+}
+
+.footer .text {
+    justify-content: center;
+    align-items: flex-start;
+    width: 43.375em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 0.9em;
+}
+
+.footer .text p {
+    text-align: justify;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .footer div {
+        padding: 0;
+    }
+
+    .footer .left {
+        margin-bottom: 0;
+    }
+
+    .footer .left img {
+        max-width: 100%;
+        height: 3em;
+    }
+
+    .footer .left p {
+        font-size: 1.1em;
+        margin-top: 1em;
+    }
+
+    .footer .text {
+        align-items: center;
+        max-width: 90%;
+        text-align: center;
+        font-size: 75%;
+    }
+
+    .footer .text .about {
+        padding-bottom: 0.5em;
+        text-align: justify;
+    }
+
+    .footer .text .credit, .footer .text .redirect {
+        padding-bottom: 0.5em;
+        text-align: center;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
