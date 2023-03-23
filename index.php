@@ -6,6 +6,8 @@
     <?php require_once 'modules/menu.php'; ?>
     <!--TO DO-->
 
+
+    <?php require_once 'modules/footer.php'; ?>
     
     <!-- Custom JS -->
     <script src="./js/carousel.js"></script>
