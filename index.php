@@ -5,5 +5,9 @@
     <?php require_once 'modules/header.php'; ?>
     <?php require_once 'modules/menu.php'; ?>
     <!--TO DO-->
+
+    
+    <!-- Custom JS -->
+    <script src="./js/carousel.js"></script>
 </body>
 </html>
