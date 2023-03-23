@@ -4,5 +4,7 @@
     <title>Women's Month 2023 | The LaSallian</title>
 
     <!--TO DO-->
+
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="/css/styles.css">
 </head>
