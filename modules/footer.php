@@ -1,6 +1,6 @@
 <div class="footer">
     <div class="left">
-        <img src="/assets/TLS Logo Star.svg" alt="The LaSallian Logo" class="logo" />
+        <img src="./assets/TLS Logo Star.svg" alt="The LaSallian Logo" class="logo" />
         <p class="title">Women's Month Website</p>
     </div>
     <div class="text">
