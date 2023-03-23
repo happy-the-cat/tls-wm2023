@@ -22,6 +22,33 @@ body {
     margin: 0;
 }
 
+/* Header */
+#header {
+    width: 98vw;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#header #banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1024px) {
+    #header {
+        height: 98vh;
+    }
+    
+    #header #banner-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 /* Footer */
 .footer {
     background-color: var(--brown);
