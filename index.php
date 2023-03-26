@@ -5,9 +5,10 @@
     <?php require_once 'modules/header.php'; ?>
     <?php require_once 'modules/menu.php'; ?>
     <?php require_once 'modules/vox-populi.php'; ?>
-
-	<!--TO DO: ARTICLES-->
-
+	
+	<?php require_once "modules/session2.php";?>
+	<?php require_once 'modules/articles.php'; ?>
+	
 	<?php require_once 'modules/footer.php'; ?>
     
     <!-- SCRIPTS -->
@@ -16,6 +17,5 @@
     <!-- Custom JS -->
     <script src="./js/carousel.js"></script>
     <script src="js/vox-populi.js"></script>
-
 </body>
 </html>
