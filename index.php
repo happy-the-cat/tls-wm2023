@@ -4,5 +4,7 @@
 <body>
     <?php require_once 'modules/header.php'; ?>
     <!--TO DO-->
+
+	<?php require_once 'modules/session.php'; ?>
 </body>
 </html>
