@@ -1,0 +1,54 @@
+/* Vox Populi */
+/* margin for mobile & desktop */
+@media only screen and (max-width: 767.98px) {
+	#vox-populi {
+		margin: 5rem auto;
+		padding: 2rem;
+	}
+}
+@media only screen and (min-width: 767.99px) {
+	#vox-populi {
+		margin: 7rem auto;
+		padding: 4rem;
+	}
+	/* Uneven start for 3rd image on tablet & desktop */
+	#vox-populi .col-6:nth-child(3) {
+		margin-top: 6rem;
+	}
+}
+
+#vox-populi {
+	background-color: var(--brown);
+	width: 75vw;
+}
+#vox-populi .row {
+	position: relative; 
+	/* height: 1064.67px; */
+}
+
+/* Uneven start */
+#vox-populi .col-6:nth-child(1) {
+	margin-top: 3rem;
+}
+
+/* Card styles */
+#vox-populi .card {
+	background-color: transparent;
+}
+#vox-populi .card {
+	box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2);
+	display: block;
+}
+#vox-populi .card:hover {
+	box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
+	-moz-box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color = #979797, direction = 135, strength = 3);
+}
+#vox-populi .card,
+#vox-populi .card img {
+	border-radius: 20px;
+}

@@ -7,6 +7,11 @@
     --pink-0: #F1D1D1;
     --pink-1: #F3E1E1;
     --pink-2: #FAF2F2;
+    /* Font Styles */
+    /* MUST ADD FALLBACK FONT FOR OLD BROWSERS w/o using CSS variables */
+    --main-font: "Cardo"; /* Fallback font: Garamond, serif */
+    --sub-font: "Inter";  /* Fallback font: Verdana, sans-serif */
+    --alt-main-font: "Lora";  /* Fallback font: Garamond, serif */
 }
 
 /* Font Cheat Sheet
@@ -25,6 +30,8 @@ body {
     background: var(--pink-2);
     padding: 0;
     margin: 0;
+    font-family: Garamond, serif;  /* Legacy fallback */
+    font-family: var(--main-font), var(--alt-main-font);
 }
 
 /* Header */
@@ -222,10 +229,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3em;
-}
-
-.footer p {
-    font-family: 'Cardo', serif;
 }
 
 .footer .left {
