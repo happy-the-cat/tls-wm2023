@@ -59,7 +59,6 @@
 	text-decoration: underline 0.08em rgba(0, 0, 0, 0);
   	transition: text-decoration-color 300ms;
 }
-#articles a:hover,
-#articles a:focus {
+#articles a:hover {
 	text-decoration-color: rgba(0, 0, 0, 1);
 }

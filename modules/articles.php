@@ -46,7 +46,7 @@
 	</div>
 		
 	<h4 class="text-end g-5" style="width: 90%; margin: auto;">
-		<a href="">
+		<a href="https://thelasallian.com/kicker/women/" target=”_blank”>
 			View All
 		</a>
 	</h4>
