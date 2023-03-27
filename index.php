@@ -5,7 +5,7 @@
     <?php require_once 'modules/header.php'; ?>
     <?php require_once 'modules/menu.php'; ?>
     <?php require_once 'modules/vox-populi.php'; ?>
-
+    <?php require_once 'modules/comic.php' ?>
 	<!--TO DO: ARTICLES-->
 
 	<?php require_once 'modules/footer.php'; ?>
