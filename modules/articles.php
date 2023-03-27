@@ -4,7 +4,7 @@
 	<h2>READ MORE:</h2>
 
 	<!-- Card Grid Container (2 columns on desktop, 1 column stack on mobile) -->
-	<div class="row row-cols-1 row-cols-md-2 g-5">
+	<div class="row row-cols-1 row-cols-md-2 g-3 g-md-4">
 
 <!-- FOR TESTING PURPOSES. REMOVE AFTER -->
 <?php 
@@ -36,16 +36,10 @@
 				</div>
 			</div>
 		
-		<?php } //End For Loop ?> 
-
-		<div class="col-9 text-end">
-			<a href="">
-				View All
-			</a>
-		</div>
+		<?php } //End For Loop ?>
 	</div>
 		
-	<h4 class="text-end g-5" style="width: 90%; margin: auto;">
+	<h4 class="text-end" style="margin: auto; padding-right: 24px;">
 		<a href="https://thelasallian.com/kicker/women/" target=”_blank”>
 			View All
 		</a>
