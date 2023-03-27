@@ -1,0 +1,147 @@
+{
+    "maria-ressa": {
+        "name": "Maria Ressa",
+        "img-path": "./assets/women/MariaRessa.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=10203946881979733&set=a.1558483049325",
+        "intro": "Maria Ressa, a Filipino-American journalist, co-founded the independent news website Rappler in 2012, which she is now the CEO of. She is known for her work in investigative journalism and her work as a human rights advocate. Prior to Rappler, she worked at other prominent news organizations such as ABS-CBN and CNN International.<br><br>Her journalism covers controversial topics such as human rights abuses, corruption, and the war on drugs in the Philippines. She faced legal persecution and harassment from the Philippine government because of both her and Rappler’s critical reporting on Former President Rodrigo Duterte’s administration.",
+        "contributions": [
+            "Under her leadership, Rappler has won numerous awards for its investigative reporting such as the 2018 Free Media Pioneer Award from the International Press Institute.",
+            "Her fight for press freedom has earned her numerous awards as she has been cited for using “freedom of expression to expose abuse of power, use of violence, and growing authoritarianism in her native country.”",
+            "She was the subject of the 2020 Sundance Film Festival documentary, which details Rappler’s fight for democracy.",
+            "She is the author of three books such as How to Stand Up to a Dictator: The Fight for Our Future, From Bin Laden to Facebook: 10 Days of Abduction, 10 Years of Terrorism, and Seeds of Terror: An Eyewitness Account of Al-Qaeda’s Newest Center of Operations in Southeast Asia."
+        ],
+        "awards": [
+            "Time Magazine’s Person of the Year, 2018",
+            "Golden Pen of Freedom Award, 2018",
+            "Knight International Journalism Award, 2018",
+            "Gwen Ifill Press Freedom Award, 2018",
+            "Shorenstein Journalism, 2019",
+            "Columbia Journalism Award, 2019",
+            "UNESCO/Guillermo Cano World Press Freedom Prize, 2021",
+            "Nobel Peace Prize, 2021"
+        ]
+    },
+    "chona-abeledo": {
+        "name": "Chona Abeledo",
+        "img-path": "./assets/women/ChonaAbeledo.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=106561425673135&set=a.106509805678297",
+        "intro": "Chona Camille Vince Cruz-Abeledo is an associate professor of the Department of Biology of De La Salle University (DLSU). Throughout her tenure as a professor in DLSU, she has served as the coordinator for the Br. Alfred Shields FSC Marine Station and is currently serving as the project leader of the CrabTECH research team. Owing to her diversified background in research, she has obtained a PhD in Biology from DLSU, a Master’s degree in Environment and Natural Resources Management from the UP Open University, and a BS in Molecular Biology and Biotechnology from the University of the Philippines - Diliman. She also completed a dissertation research program in Applied Genomics at the University of Washington.<br><br>Beyond her contributions as a tenured professor and researcher, Dr. Abeledo also has an advocacy of her own—to improve the means of communication between the scientific community and society at large. In pursuit of this goal, she established her science blog and YouTube channel, SHE-ensya.",
+        "contributions": [
+            "Creator of the SHE-ensya blog and channel in pursuit of explaining scientific concepts and events in layman’s terms for society at large.",
+            "Project leader of the CrabTECH team, an interdisciplinary research team dedicated to developing technologies for natural resource management such as Crabifier—a species identification tool for juvenile crabs using image analysis and genetic marker technology, CrabMAP—a heat map tool used to identify coastal areas exhibiting high temperature fluctuation spikes and spikes, high temperature fluctuations and low temperature spikes, and low temperature fluctuations and spikes, and Alinmango—a mangrove crab environment identifier tool used to identify the best sources of mangrove crabs based on environmental factors such as temperature variables and fattening ponds. Additionally, they have created cost-effective, rapid DNA barcoding techniques for independent studies on species.",
+            "Contributed to the growing library of literature on crab research in her studies as a PhD candidate for Biology. Produced various literature on determining distinguishing features of mudcrabs based on morphological features."
+        ],
+        "awards": [
+            "Outstanding Asian Science Diplomat Award, 2021",
+            "Cohort of Southeast Asia Women Leaders, 2021", 
+            "Best Paper Presentation at the 1st International Conference on Biotechnology, Bioengineering, Biorefinery and Pollution Prevention, 2019",
+            "Outstanding Research and Development Award for Emerging Technologies, 2015"
+        ]
+    },
+    "reina-reyes": {
+        "name": "Reinabelle Reyes",
+        "img-path": "./assets/women/ReinabelleReyes.png",
+        "img-link": "https://www.google.com/search?q=reinabelle+reyes&rlz=1C5CHFA_enPH869PH869&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiTgrGNh9n9AhVD1GEKHSG_BhoQ_AUoAXoECAEQAw&biw=1261&bih=946&dpr=2#imgrc=kGOqwjkmo4-hCM",
+        "intro": "Reinabelle “Reina” Reyes is a Filipina scientist whose work made an impact on astrophysics. From “proving Einstein right” to pinning qualities of dark energy, her groundbreaking research could change science textbooks in the future. Despite being abroad multiple times to pursue higher education, she flew back to the Philippines to make science accessible and embraced by Filipinos through numerous projects.",
+        "contributions": [
+            "Established the Data and Computation (D&C) Research Group of the National Institute of Physics at the University of the Philippines Diliman (UP-NIP)",
+            "Co-founder of Pinoy Scientists platform",
+            "Host and resident scientist of Knowledge Channel’s “Science Says”",
+            "Proved Albert Einstein’s Theory of General Relativity",
+            "Made research on dark energy, specifically quasars or supermassive blackholes"
+        ],
+        "awards": [
+            "Chambliss Astronomy Achievement Student Award (2008)",
+            "Centennial Fellowship, Princeton University Graduate School (2006-2010)",
+            "Merit Prize Fellowship Grant, Princeton University Graduate School (2006-2010)",
+            "Martin Schwarschild Graduate Fellowship, Princeton University (2006-2007)"            
+        ]
+    },
+    "karmina-constantino": {
+        "name": "Karmina Constantino",
+        "img-path": "./assets/women/KarminaConstantino.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=10159939767637479&set=a.435878867478",
+        "intro": "Karmina Constantino is a broadcast journalist and news broadcaster. She gained popularity online from her long-running news show “Dateline Philippines” in which she refuted the insinuation that ANC may have been accepting money from Isko Moreno made by Dr. Jose Monetemayor Jr. With nearly three decades in the industry, she has interviewed many different personalities such as American actor David Hasselhoff, Sal Panelo, and Reina Mae Nasino.",
+        "contributions": [
+            "She has solidified herself as a news broadcaster through, in the words of Mr. Townson, her “unflinching commitment to speak truth to power, an admirable consistency in ferreting out the most complicated issues of the day, and a stirring courage to ask the toughest questions.”"
+        ],
+        "awards": [
+            "Marshall McLuhan Fellowship for Excellence in Journalism, 2022"
+        ]
+    },
+    "hidilyn-diaz": {
+        "name": "Hidilyn Diaz",
+        "img-path": "./assets/women/HidilynDiaz.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=2499163280309961&set=a.206453134177408",
+        "intro": "Hidilyn Diaz—also known as Hidilyn Francisco Diaz-Naranjo—is a Filipino weightlifter and airwoman who etched her name in history as the Philippines’ first Olympic gold medalist. Born on February 20, 1991, in Zamboanga City, Diaz discovered her passion for weightlifting at the young age of 11 and went on to reach unprecedented heights in the sport. Her groundbreaking victory in the women's 55 kg weightlifting event at the 2020 Tokyo Olympics not only cemented her position as a world-class athlete but also inspired countless individuals in the Philippines and beyond. Diaz's feats have significantly contributed to the promotion of weightlifting as a sport and have encouraged budding athletes, particularly women, to chase their aspirations.",
+        "contributions": [
+            "Elevated the profile of weightlifting as a sport in the Philippines",
+            "Inspired women to pursue dreams in sports and beyond",
+            "Advocating for support and funding for Filipino athletes",
+            "Participating in charity work and community outreach"
+        ],
+        "awards": [
+            "Olympic Gold Medalist, Women's 55 kg Weightlifting, 2020 Tokyo Olympics",
+            "Silver Medalist, Women's 53 kg Weightlifting, 2016 Rio de Janeiro Olympics",
+            "Gold Medalist, Women's 55 kg Weightlifting, 2019 Asian Weightlifting Championships",
+            "Gold Medalist, Women's 53 kg Weightlifting, 2018 Asian Games",
+            "Bronze Medalist, Women's 58 kg Weightlifting, 2015 World Weightlifting Championships"
+        ]
+    },
+    "serena-williams": {
+        "name": "Serena Williams",
+        "img-path": "./assets/women/SerenaWilliams.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=206692837481613&set=a.206692757481621",
+        "intro": "Serena Williams, born September 26, 1981, in Saginaw, Michigan, stands as an American tennis powerhouse—widely regarded as the greatest female player of all time—who revolutionized the sport with her unique, powerful playing style. Raised in Compton, California, Serena and her sister Venus received coaching from their father, Richard Williams. Serena kickstarted her professional career in 1995 and rapidly rose to prominence. Since then, she has secured numerous victories and accolades, including 23 Grand Slam singles titles which she attained during the open era. Her unparalleled success, resilience, and passion for tennis have solidified her status as an inspirational icon to millions of individuals worldwide.",
+        "contributions": [
+            "Advocated for gender equality and equal pay for female athletes",
+            "Raised awareness about social issues and injustices",
+            "Inspired future generations of tennis players with her powerful playing style and work ethic",
+            "Contributed to charitable causes and empowered women through her Serena Williams Fund"
+        ],
+        "awards": [
+            "23 Grand Slam singles titles (7 Australian Open, 3 French Open, 7 Wimbledon, 6 US Open)",
+            "14 Grand Slam doubles titles (all with sister Venus Williams)",
+            "4 Olympic Gold Medals (1 singles, 3 doubles)",
+            "5 WTA Tour Championships titles",
+            "Ranked World No. 1 in singles by the Women's Tennis Association (WTA) on 8 separate occasions"
+        ]
+    },
+    "dolly-deleon": {
+        "name": "Dolly de Leon",
+        "img-path": "./assets/women/DollyDeLeon.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=10158910222101073&set=a.438877921072",
+        "intro": "Dolly de Leon, a graduate of the BA Theater Arts program from the University of the Philippines - Diliman, is a Filipino film, television, and theater actress. She is best known for her roles in Verdict (2019), Historya ni Ha (2021), and Triangle of Sadness (2022)—of which she has received multiple nominations and won some awards for. Receiving widespread recognition and critical acclaim for her role as Abigail in Triangle of Sadness, de Leon became the first Filipino to receive a nomination in the BAFTAs and the Golden Globe Awards.<br><br>As part of her advocacy to give back to the community, she and her friends, Zena Bernardo, Judith Albano, and Jasmine Ong, started a social enterprise called Ladies Who Launch.",
+        "contributions": [
+            "First Filipino actor to be nominated at the BAFTAs and Golden Globe Awards.",
+            "Social enterprise Ladies Who Launch, which has had initiatives such as Project Hulmahan—an art-driven mutual aid advocacy in support of livelihood, food security and disaster response, and community kitchens—inspired by the Maginhawa Community Pantry."
+        ],
+        "awards": [
+            "CinEuphoria Best Ensemble - International Competition for Triangle of Sadness, 2023",
+            "Guldbagge Award for Best Actress in a Supporting Role for Triangle of Sadness, 2023",
+            "International Online Cinema Awards (INOCA) Best Supporting Actress (2023) for Triangle of Sadness, 2023",
+            "Los Angeles Film Critics Association Awards (LAFCA Award) Best Supporting Performance for Triangle of Sadness, 2022",
+            "FAMAS Award Best Supporting Actress for Verdict, 2020"
+            
+        ]
+    },
+    "edith-tiempo": {
+        "name": "Edith Tiempo",
+        "img-path": "./assets/women/EdithTiempo.png",
+        "img-link": "https://www.facebook.com/photo/?fbid=105071718888270&set=a.105071735554935",
+        "intro": "Edith L. Tiempo is a poet and fictionist who became one of the finest English writers in the Philippines. Her works–especially her poems–show insightful experiences that shine light on social problems, especially of the women during her time. With her profound morals and a detailed writing style, Tiempo shows that empowerment is attainable.",
+        "contributions": [
+            "6 novels, 1 short story collection, 5 poetry collections, 2 writing guides",
+            "Founded and directed the Silliman National Writers Workshop"
+        ],
+        "awards": [
+            "National Artist for Literature (1999)",
+            "Gawad Pambansang Alagad ni Balagtas ng Unyon ng mga Manunulat sa Pilipinas (1988)",
+            "Cultural Center of the Philippines Award, First Prize for Novel (1979)",
+            "Elizabeth Luce Moore Distinguished Asia Professor Award (1978)",
+            "Philippine Free Press Short Story Contest (1955, 1959)",
+            "4 Carlos Palanca Memorial Awards for Literature (1951, 1955, 1967, 1969)"
+            
+        ]
+    }
+}
