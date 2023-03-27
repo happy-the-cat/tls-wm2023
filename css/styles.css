@@ -70,7 +70,7 @@ a {
 /* Menu */
 #menu {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     padding: 0;
     margin: 0;
 }
@@ -78,7 +78,7 @@ a {
 #menu #menu-bg {
     background-color: var(--pink-1);
     width: 100%;
-    height: 14.5vh;
+    height: 17vh;
     position: absolute;
     z-index: 0;
     margin: 0;
@@ -87,7 +87,7 @@ a {
 }
 
 #menu #menu-slider {
-    height: inherit;
+    height: 23vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -96,7 +96,7 @@ a {
     position: relative;
     z-index: 1;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: visible;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -105,10 +105,9 @@ a {
 #menu .icon {
     transition: all 0.5s;
     width: auto;
-    height: 18vh;
+    height: 21vh;
     padding-left: 2.5vmin;
     padding-right: 2.5vmin;
-    padding-top: 2.5vmin;
 }
 
 #menu .icon:hover {
@@ -174,7 +173,7 @@ a {
 
 @media screen and (min-width: 768px){
     #menu {
-        height: 45vh;
+        height: 50vh;
     }
 
     #menu #menu-bg {
@@ -183,12 +182,14 @@ a {
     }
 
     #menu #menu-slider {
+        height: 48vh;
         padding-top: 2.5vmin;
         padding-bottom: 2.5vmin;
     }
 
     #menu .icon {
-        height: 35vh;
+        height: 38vh;
+        padding-top: 2.5vmin;
     }
 
     #menu-slider img {
