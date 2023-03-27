@@ -324,6 +324,43 @@ p#women-name{
     }
 }
 
+/* Comic Carousel */
+#comic-container{
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    position: relative;
+    margin: 0;
+    margin-top: 10vh;
+}
+
+#comic-carousel{
+    background-color: var(--pink-1);
+    width: 100vw;
+    padding: 0;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px){
+    #comic-container{
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    
+    #comic-carousel{
+        width: 75vw;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    
+    .carousel-item img{
+        max-width: 100vh;
+        max-height: 100vh;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
 /* Footer */
 .footer {
     background-color: var(--brown);
