@@ -342,6 +342,10 @@ p#women-name{
     padding: 3em;
 }
 
+.footer p {
+    font-family: 'Cardo', serif;
+}
+
 .footer .left {
     justify-content: center;
     align-items: center;
