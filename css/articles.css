@@ -1,14 +1,65 @@
-.card-img-overlay {
-	background: linear-gradient(transparent 25%, rgba(0,0,0,0.7) 90%);
+/* Articles */
+/* margin for mobile & desktop */
+@media only screen and (max-width: 767.98px) {
+	#articles {
+		margin: 5rem auto;
+	}
 }
-.ellipsis-for-overflow {
+@media only screen and (min-width: 767.99px) {
+	#articles {
+		margin: 7rem auto;
+	}
+}
+
+#articles {
+	width: 75vw;
+}
+#articles h2 {
+	font-weight: bolder;
+}
+#articles .row {
+	margin: 0 auto 2rem auto;  /* top margin 0 since there's to gutter-y */
+	width: 90%;
+}
+#articles .card {
+	height: 300px;
+	overflow: hidden;
+	font-family: Verdana, sans-serif;  /* Legacy fallback */
+    font-family: var(--sub-font);
+	border: transparent;
+}
+
+/* https://css-tricks.com/zooming-background-images/ */
+#articles .card-img {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.4s ease-out;
+}
+#articles .card:hover .card-img,
+#articles .card:focus .card-img {
+	transform: scale(1.2);
+}
+#articles .card-img-overlay {
+	background: linear-gradient(transparent 0%, rgba(0,0,0,0.7) 90%);
+}
+
+#articles .ellipsis-for-overflow {
+	white-space: nowrap; 
 	overflow: hidden;
 	text-overflow: ellipsis; 
 }
-/* https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-.card-img {
-	transition: transform 2s;
+
+
+/* View All link */
+/* https://css-irl.info/animating-underlines/ */
+#articles a {
+	color: black;
+	text-decoration: underline 0.08em rgba(0, 0, 0, 0);
+  	transition: text-decoration-color 300ms;
 }
-.card-img:hover {
-	transform: scale(1.5);
+#articles a:hover,
+#articles a:focus {
+	text-decoration-color: rgba(0, 0, 0, 1);
 }

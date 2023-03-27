@@ -11,7 +11,7 @@
  */
 
 // Wordpress endpoint for 6 latest article with the tag women
-$wp_url = "https://thelasallian.com/wp-json/wp/v2/posts?tags=2180&?per_page=6&_fields=date,title,excerpt,authors,link,jetpack_featured_media_url";
+$wp_url = "https://thelasallian.com/wp-json/wp/v2/posts?tags=2291&?per_page=6&_fields=date,title,excerpt,authors,link,jetpack_featured_media_url";
 
 // Code by Rafael Gabriel Arceo
 if(session_status() == PHP_SESSION_NONE) {
