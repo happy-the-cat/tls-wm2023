@@ -147,11 +147,11 @@ a {
     z-index: 2;
     background-color: var(--pink-2);
     color: var(--brown);
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     align-self: center;
     display: none;
-    box-shadow: 3px 3px
+    box-shadow: 3px 3px;
 }
 
 #menu .nav-btn:active {
@@ -302,6 +302,7 @@ p#women-name{
     #img-holder {
         width: 40%;
         height: 100vh;
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
     }
