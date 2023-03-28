@@ -15,7 +15,7 @@
 		width: 75vw;
 	}
 	#articles .card {
-		height: 20vw;
+		height: 250px;
 	}
 }
 
@@ -23,16 +23,20 @@
 #articles h2 {
 	font-weight: bolder;
 }
+
 #articles .row {
 	margin: 0 auto 2rem auto;  /* top margin 0 since there's to gutter-y */
 }
+
 #articles .card {
 	overflow: hidden;
 	font-family: Verdana, sans-serif;  /* Legacy fallback */
-    font-family: var(--sub-font);
+	font-family: var(--main-font);
 	border: transparent;
+	border-radius: 20px;
 }
 
+/* Card Image and Overlay */
 /* https://css-tricks.com/zooming-background-images/ */
 #articles .card-img {
 	height: 100%;
@@ -49,6 +53,7 @@
 	background: linear-gradient(transparent 0%, rgba(0,0,0,0.7) 90%);
 }
 
+/* Card Texts */
 /* ellipsis for overflow after n lines 
    Source: https://stackoverflow.com/a/41137262 */
 #articles .card-title {
@@ -56,22 +61,24 @@
     max-width: 100%;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-#articles .card-text {
-	margin-bottom: 0;
+	font-weight: bold;
 }
 @media only screen and (max-width: 991.98px) {
 	#articles .card-title  {
 		-webkit-line-clamp: 2;  /* defines # of lines */
-		font-size: medium;
+		font-size: large;
 	}
 	#articles .card-text {
 		font-size: small;
+		margin-bottom: -10px;
 	}
 }
 @media only screen and (min-width: 991.99px) {
 	#articles .card-title  {
 		-webkit-line-clamp: 3;  /* defines # of lines */
+	}
+	#articles .card-text {
+		margin-bottom: 0;
 	}
 }
 
