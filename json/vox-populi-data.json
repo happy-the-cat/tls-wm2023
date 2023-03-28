@@ -1,17 +1,11 @@
 {
-    "total": 12,
+    "total": 6,
     "url": [
         "http://wlog.cn/demo/waterfall/images/001.jpg",
         "http://wlog.cn/demo/waterfall/images/002.jpg", 
         "http://wlog.cn/demo/waterfall/images/011.jpg", 
         "http://wlog.cn/demo/waterfall/images/012.jpg", 
         "http://wlog.cn/demo/waterfall/images/015.jpg", 
-        "http://wlog.cn/demo/waterfall/images/013.jpg", 
-        "http://wlog.cn/demo/waterfall/images/014.jpg", 
-        "http://wlog.cn/demo/waterfall/images/016.jpg", 
-        "http://wlog.cn/demo/waterfall/images/017.jpg", 
-        "http://wlog.cn/demo/waterfall/images/018.jpg", 
-        "http://wlog.cn/demo/waterfall/images/019.jpg", 
-        "http://wlog.cn/demo/waterfall/images/020.jpg"
+        "http://wlog.cn/demo/waterfall/images/013.jpg"
     ]
 }

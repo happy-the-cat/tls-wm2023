@@ -3,12 +3,12 @@
 		
 		<!-- PHP For Loop for retrieving image links and generating image cards for masonry -->
 		<?php 
-			$json_file = file_get_contents('json/vox-populi-data.json');
-			$json_data = json_decode($json_file, true);
+			$_IMAGES_JSON_FILE = file_get_contents('json/vox-populi-data.json');
+			$_IMAGES_INFO = json_decode($_IMAGES_JSON_FILE, true);
 
-			for($i = 0; $i < $json_data["total"]; $i++) {
-				$image = $json_data["url"][$i];
-				$margin = ($i < $json_data["total"]-1) ? "mb-4" : "";
+			for($i = 0; $i < $_IMAGES_INFO["total"]; $i++) {
+				$image = $_IMAGES_INFO["url"][$i];
+				$margin = ($i < $_IMAGES_INFO["total"]-1) ? "mb-4" : "";
 		?> 
 				<div class="col-6 col-md-4 <?php echo $margin; ?>"  >
 					<div class="card">
