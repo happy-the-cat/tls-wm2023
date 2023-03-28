@@ -6,9 +6,9 @@
     <?php require_once 'modules/menu.php'; ?>
     <?php require_once 'modules/vox-populi.php'; ?>
     <?php require_once 'modules/comic.php' ?>
-	<!--TO DO: ARTICLES-->
-
-	<?php require_once 'modules/footer.php'; ?>
+    <?php require_once 'modules/articles.php'; ?>
+    
+    <?php require_once 'modules/footer.php'; ?>
     
     <!-- SCRIPTS -->
     <!-- Include JS Dependencies -->
@@ -16,6 +16,5 @@
     <!-- Custom JS -->
     <script src="./js/carousel.js"></script>
     <script src="js/vox-populi.js"></script>
-
 </body>
 </html>

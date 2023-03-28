@@ -10,4 +10,5 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/vox-populi.css">
+    <link rel="stylesheet" href="/css/articles.css">
 </head>
