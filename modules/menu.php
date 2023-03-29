@@ -15,4 +15,4 @@
         <button class="nav-btn" id="nav-next"><i class="bi bi-chevron-right"></i></button>
     </div>
 </div>
-<div id="menu-instructions"><p>Scroll through the icons and click to learn more!</p></div>
+<!--<div id="menu-instructions"><p>Scroll through the icons and click to learn more!</p></div>-->
