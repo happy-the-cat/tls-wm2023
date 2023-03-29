@@ -30,8 +30,6 @@
 
 #articles .card {
 	overflow: hidden;
-	font-family: Verdana, sans-serif;  /* Legacy fallback */
-	font-family: var(--main-font);
 	border: transparent;
 	border-radius: 20px;
 }
@@ -86,10 +84,10 @@
 /* View All link */
 /* https://css-irl.info/animating-underlines/ */
 #articles a {
-	color: black;
+	color: var(--brown);
 	text-decoration: underline 0.08em rgba(0, 0, 0, 0);
   	transition: text-decoration-color 300ms;
 }
 #articles a:hover {
-	text-decoration-color: rgba(0, 0, 0, 1);
+	text-decoration-color: var(--brown);
 }

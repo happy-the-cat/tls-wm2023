@@ -1,4 +1,15 @@
 /* Vox Populi */
+
+/* Text */
+#vox-populi .title {
+	text-transform: full-width;
+	text-align: center; 
+	font-weight: bold;
+}
+#vox-populi .instruction {
+	text-align: center;
+}
+
 /* Styles for mobile */
 @media only screen and (max-width: 575.98px) {
 	#vox-populi {
@@ -19,6 +30,11 @@
 	#vox-populi .col-6:nth-child(1) {
 		/* take into account grid gap for g-4 */
 		margin-top: calc(3rem + 48px - 12px);
+	}
+}
+@media screen and (min-width: 768px) { 
+	#vox-populi .instruction {
+		font-size: 1.5em;
 	}
 }
 /* Styles for desktop */
@@ -43,16 +59,6 @@
 #vox-populi .col-6:nth-child(2) {
 	/* trim margin top from gutter of first 3 image */
 	margin-top: calc(var(--bs-gutter-y) * 0.6);
-}
-
-/* Text */
-#vox-populi .title {
-	text-transform: full-width;
-	text-align: center;
-	padding-top: 1rem;
-}
-#vox-populi .instruction {
-	text-align: center;
 }
 
 /* Card styles */

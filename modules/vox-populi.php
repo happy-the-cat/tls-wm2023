@@ -1,6 +1,6 @@
 <section id="vox-populi">
 	<h1 class="title">VOX POPULI</h1>
-	<h5 class="instruction">Click on an image to enlarge it!</h5>
+	<p class="instruction">Click on an image to enlarge it!</p>
 
 	<div class="row grid" data-masonry='{"percentPosition": true }'>
 

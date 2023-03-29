@@ -1,6 +1,8 @@
 /* CSS Variables */
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter:wght@500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 :root {
     /* Palette */
     --brown: #7D5A5A;
@@ -9,8 +11,8 @@
     --pink-2: #FAF2F2;
     /* Font Styles */
     /* MUST ADD FALLBACK FONT FOR OLD BROWSERS w/o using CSS variables */
-    --main-font: "Inter"; /* Fallback font: Verdana, sans-serif */
-    --footer-font: "Cardo";  /* Fallback font: Garamond, serif */
+    --main-font: "Josefin Sans"; /* Fallback font: Verdana, sans-serif */
+    --footer-font: "Josefin Sans";  /* Fallback font: Garamond, serif */
 }
 
 /* Font Cheat Sheet
@@ -31,6 +33,7 @@ body {
     margin: 0;
     font-family: Verdana, sans-serif;  /* Legacy fallback */
     font-family: var(--main-font);
+    color: var(--brown);
 }
 
 a {
@@ -70,7 +73,6 @@ a {
 
 #menu-instructions p {
     font: var(--main-font);
-    color: var(--brown);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -270,7 +272,7 @@ a {
 }
 
 #content-holder p,li{
-    font-family: 'Cardo', serif;
+    font-family: var(--main-font), sans-serif;
     font-size: 90%;
     color: var(--brown);
     margin: 0;
