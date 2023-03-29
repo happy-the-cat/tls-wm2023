@@ -64,10 +64,8 @@
 @media only screen and (max-width: 991.98px) {
 	#articles .card-title  {
 		-webkit-line-clamp: 2;  /* defines # of lines */
-		font-size: large;
 	}
 	#articles .card-text {
-		font-size: small;
 		margin-bottom: -10px;
 	}
 }

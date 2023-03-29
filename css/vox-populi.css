@@ -83,6 +83,7 @@
 /* Text */
 #vox-populi .title {
 	text-transform: full-width;
+	font-variant: small-caps;
 	text-align: center; 
 	font-weight: bold;
 }

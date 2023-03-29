@@ -72,7 +72,7 @@ $_ARTICLE_INFO = fetchInfo($wp_url);
 					<div class="card-img" style="background-image: url(<?php echo $article_image; ?>);">
 					</div>
 					<div class="card-img-overlay d-flex flex-column justify-content-end"> 
-						<h5 class="card-title"><?php echo $article_title; ?></h5>
+						<h4 class="card-title"><?php echo $article_title; ?></h4>
 						<p class="card-text"><small><?php echo $article_date; ?></small></p>
 						<a href="<?php echo $article_link; ?>" class="btn stretched-link"></a>
 					</div>
@@ -85,7 +85,7 @@ $_ARTICLE_INFO = fetchInfo($wp_url);
 	<!-- View All button -->
 	<h4 class="text-end" style="margin: auto; padding-right: 24px;">
 		<a href="https://thelasallian.com/kicker/women/" target=”_blank”>
-			View All
+			View All ➔
 		</a>
 	</h4>
 </section>
