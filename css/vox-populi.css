@@ -10,6 +10,9 @@
 		/* take into account grid gap for g-3 */
 		margin-top: calc(1rem + 24px - 12px);
 	}
+	#vox-populi .instruction {
+		font-size: 0.6rem;
+	}
 }
 /* Styles for tablet */
 @media only screen and (min-width: 575.99px) {
@@ -20,6 +23,9 @@
 	#vox-populi .col-6:nth-child(1) {
 		/* take into account grid gap for g-4 */
 		margin-top: calc(3rem + 48px - 12px);
+	}
+	#vox-populi .instruction {
+		font-size: 1rem;
 	}
 }
 @media screen and (min-width: 768px) { 
