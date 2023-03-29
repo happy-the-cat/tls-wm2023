@@ -1,34 +1,52 @@
 /* Vox Populi */
-/* margin for mobile & desktop */
-@media only screen and (max-width: 767.98px) {
+/* Styles for mobile */
+@media only screen and (max-width: 575.98px) {
 	#vox-populi {
-		margin: 5rem auto;
-		padding: 2rem;
+		margin: 2rem auto;
+	}
+	/* Uneven start for 1st image */
+	#vox-populi .col-6:nth-child(1) {
+		/* take into account grid gap for g-3 */
+		margin-top: calc(1rem + 24px);
+	}
+	#vox-populi .card,
+	#vox-populi .card img {
+		border-radius: 10px;
 	}
 }
-@media only screen and (min-width: 767.99px) {
+/* Styles for tablet */
+@media only screen and (min-width: 575.99px) {
 	#vox-populi {
-		margin: 7rem auto;
-		padding: 4rem;
+		margin: 5rem auto;
 	}
-	/* Uneven start for 3rd image on tablet & desktop */
+	/* Uneven start for 1st image */
+	#vox-populi .col-6:nth-child(1) {
+		/* take into account grid gap for g-4 */
+		margin-top: calc(3rem + 48px);
+	}
+	#vox-populi .card,
+	#vox-populi .card img {
+		border-radius: 20px;
+	}
+}
+/* Styles for desktop */
+@media only screen and (min-width: 991.99px) {
+	/* Uneven start for 1st & 3rd image on tablet & desktop */
+	#vox-populi .col-6:nth-child(1) {
+		/* take into account grid gap (24 px) */
+		margin-top: calc(5rem + 24px);
+	}
 	#vox-populi .col-6:nth-child(3) {
-		margin-top: 6rem;
+		/* take into account grid gap (24 px) */
+		margin-top: calc(9rem + 24px);
 	}
 }
 
 #vox-populi {
-	background-color: var(--brown);
 	width: 75vw;
 }
 #vox-populi .row {
 	position: relative; 
-	/* height: 1064.67px; */
-}
-
-/* Uneven start */
-#vox-populi .col-6:nth-child(1) {
-	margin-top: 3rem;
 }
 
 /* Card styles */
@@ -36,19 +54,18 @@
 	background-color: transparent;
 }
 #vox-populi .card {
-	box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
-	-moz-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
-	-webkit-box-shadow: 0 1px 3px rgba(255, 255, 255, 0.4);
-	filter: progid:DXImageTransform.Microsoft.Shadow(color = #adacac, direction = 135, strength = 2);
+	border: none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color = #343434, direction = 135, strength = 2);
 	display: block;
+	transition: all 0.4s ease-out;
 }
 #vox-populi .card:hover {
-	box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
-	-moz-box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
-	-webkit-box-shadow: 0 1px 5px rgba(255, 255, 255, 0.8);
-	filter: progid:DXImageTransform.Microsoft.Shadow(color = #979797, direction = 135, strength = 3);
-}
-#vox-populi .card,
-#vox-populi .card img {
-	border-radius: 20px;
+	box-shadow: 0 1px 7px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.8);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color = #2c2c2c, direction = 135, strength = 3);
+	transform: scale(1.1);
 }

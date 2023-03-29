@@ -8,9 +8,8 @@
 
 			for($i = 0; $i < $_IMAGES_INFO["total"]; $i++) {
 				$image = $_IMAGES_INFO["url"][$i];
-				$margin = ($i < $_IMAGES_INFO["total"]-1) ? "mb-4" : "";
 		?> 
-				<div class="col-6 col-md-4 <?php echo $margin; ?>"  >
+				<div class="col-6 col-lg-4 g-3 g-sm-4 g-md-5">
 					<div class="card">
 						<img src="<?php echo $image; ?>" alt="" class="card-img">
 					</div>
