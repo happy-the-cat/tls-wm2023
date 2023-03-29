@@ -62,7 +62,7 @@ a {
 }
 
 /* Menu */
-#menu-instructions {
+/*#menu-instructions {
     width: 100%;
     height: auto;
     padding: 3%;
@@ -75,7 +75,7 @@ a {
     padding: 0;
     margin: 0;
     font-size: 0.8em;
-}
+}*/
 
 #menu {
     width: 100%;
@@ -109,6 +109,8 @@ a {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 #menu .icon {
@@ -151,16 +153,16 @@ a {
 #menu .nav-btn {
     position: -webkit-sticky;
     position: sticky;
-    height: 7vh;
+    height: 5vw;
+    width: fit-content;
     border: none;
     border-radius: 30%;
     z-index: 2;
     background-color: var(--pink-2);
     color: var(--brown);
-    font-size: 4vh;
+    font-size: 2vw;
     text-align: center;
     align-self: center;
-    display: none;
     box-shadow: 3px 3px;
 }
 
@@ -182,9 +184,9 @@ a {
 }
 
 @media screen and (min-width: 768px){
-    #menu-instructions p {
+    /*#menu-instructions p {
         font-size: 1.5em;
-    }
+    }*/
 
     #menu {
         height: 50vh;
@@ -197,8 +199,6 @@ a {
 
     #menu #menu-slider {
         height: 50vh;
-        padding-left: 2vw;
-        padding-right: 2vw;
     }
 
     #menu .icon {
@@ -230,7 +230,8 @@ a {
     }
 
     #menu .nav-btn {
-        display: block;
+        height: 7vh;
+        font-size: 4vh;
     }
 }
 
