@@ -100,6 +100,18 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#menu #menu-icons {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
     top: 0;
     position: relative;
@@ -109,8 +121,6 @@ a {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    padding-left: 2vw;
-    padding-right: 2vw;
 }
 
 #menu .icon {
@@ -162,7 +172,6 @@ a {
     color: var(--brown);
     font-size: 2vw;
     text-align: center;
-    align-self: center;
     box-shadow: 3px 3px;
 }
 
@@ -198,6 +207,10 @@ a {
     }
 
     #menu #menu-slider {
+        height: 50vh;
+    }
+
+    #menu #menu-icons {
         height: 50vh;
     }
 
