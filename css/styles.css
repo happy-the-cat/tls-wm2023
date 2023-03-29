@@ -59,11 +59,6 @@ a {
         height: 100vh;
         max-height: 100%;
     }
-
-    #header #banner-img {
-        object-fit: contain;
-        object-position: bottom;
-    }
 }
 
 /* Menu */
@@ -86,11 +81,11 @@ a {
 }
 
 #menu #menu-slider {
-    height: 23vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     top: 0;
     position: relative;
     z-index: 1;
@@ -107,25 +102,27 @@ a {
     height: 21vh;
     padding-left: 2.5vmin;
     padding-right: 2.5vmin;
+    margin-top: 0;
 }
 
 #menu .icon:hover {
     background-color: var(--pink-2);
 }
 
-#menu-slider img {
+#menu .menu-icon {
     width: auto;
     height: 15vh;
+    margin-top: 2vh;
 }
 
 #menu-slider .down {
     height: 15.5vh;
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 
 #menu-slider .up {
     height: 15.5vh;
-    margin-top: -0.5vh;
+    margin-top: 1.5vh;
 }
 
 #menu-slider .sports {
@@ -133,7 +130,7 @@ a {
 }
 
 #menu-slider .sports.up {
-    margin-top: -3vh;
+    margin-top: -1vh;
 }
 
 #menu .nav-btn {
@@ -181,28 +178,27 @@ a {
     }
 
     #menu #menu-slider {
-        height: 48vh;
-        padding-top: 2.5vmin;
-        padding-bottom: 2.5vmin;
+        height: 50vh;
     }
 
     #menu .icon {
-        height: 38vh;
+        height: 40vh;
         padding-top: 2.5vmin;
     }
 
-    #menu-slider img {
+    #menu .menu-icon {
         height: 30vh;
+        margin-top: 7vh;
     }
     
     #menu-slider .down {
         height: 33vh;
-        margin-top: 2vh;/*0.7em;*/
+        margin-top: 9vh;
     }
 
     #menu-slider .up {
         height: 33vh;
-        margin-top: -3vh;/*-1.2em;*/
+        margin-top: 4vh;/*-1.2em;*/
     }
 
     #menu-slider .sports {
@@ -210,7 +206,7 @@ a {
     }
 
     #menu-slider .sports.up {
-        margin-top: -7vh;/*-2.7em;*/
+        margin-top: 1vh;
     }
 
     #menu .nav-btn {
@@ -371,7 +367,7 @@ p#women-name{
     flex-direction: row;
     width: 100vw;
     max-width: 100%;
-    margin-top: 1.875em;
+    /*margin-top: 1.875em;*/
     font-family: Garamond, serif;  /* Legacy fallback */
     font-family: var(--footer-font);
 }
