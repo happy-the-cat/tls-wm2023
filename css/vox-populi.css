@@ -88,10 +88,6 @@
 }
 
 /* Modal */
-#vox-populi .modal {
-	height: 100%;
-	width: 100%;
-}
 #vox-populi a:focus {
 	border: none;
 }
