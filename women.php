@@ -18,7 +18,7 @@
     ?>
 
     <div id="women-container">
-        <div id="img-holder"><a href="<?php echo $woman['img-link'] ?>" target="_blank"><img id="women-img" src="<?php echo $woman['img-path'] ?>"></a></div>
+        <div id="img-holder"><a href="<?php echo $woman['img-link'] ?>" target="_blank"><img id="women-img" src="<?php echo $woman['img-path'] ?>" alt="<?php echo $woman['name'] ?>"></a></div>
         <div id="content-holder">
             <div id="content-pt1">
                 <p id="women-name"><?php echo $woman['name'] ?></p>
