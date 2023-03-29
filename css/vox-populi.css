@@ -7,11 +7,7 @@
 	/* Uneven start for 1st image */
 	#vox-populi .col-6:nth-child(1) {
 		/* take into account grid gap for g-3 */
-		margin-top: calc(1rem + 24px);
-	}
-	#vox-populi .card,
-	#vox-populi .card img {
-		border-radius: 10px;
+		margin-top: calc(1rem + 24px - 12px);
 	}
 }
 /* Styles for tablet */
@@ -22,11 +18,7 @@
 	/* Uneven start for 1st image */
 	#vox-populi .col-6:nth-child(1) {
 		/* take into account grid gap for g-4 */
-		margin-top: calc(3rem + 48px);
-	}
-	#vox-populi .card,
-	#vox-populi .card img {
-		border-radius: 20px;
+		margin-top: calc(3rem + 48px - 12px);
 	}
 }
 /* Styles for desktop */
@@ -34,11 +26,11 @@
 	/* Uneven start for 1st & 3rd image on tablet & desktop */
 	#vox-populi .col-6:nth-child(1) {
 		/* take into account grid gap (24 px) */
-		margin-top: calc(5rem + 24px);
+		margin-top: calc(4rem + 24px - 12px);
 	}
 	#vox-populi .col-6:nth-child(3) {
 		/* take into account grid gap (24 px) */
-		margin-top: calc(9rem + 24px);
+		margin-top: calc(7rem + 24px - 12px);
 	}
 }
 
@@ -46,14 +38,26 @@
 	width: 75vw;
 }
 #vox-populi .row {
-	position: relative; 
+	position: relative;
+}
+#vox-populi .col-6:nth-child(2) {
+	/* trim margin top from gutter of first 3 image */
+	margin-top: calc(var(--bs-gutter-y) * 0.6);
+}
+
+/* Text */
+#vox-populi .title {
+	text-transform: full-width;
+	text-align: center;
+	padding-top: 1rem;
+}
+#vox-populi .instruction {
+	text-align: center;
 }
 
 /* Card styles */
 #vox-populi .card {
 	background-color: transparent;
-}
-#vox-populi .card {
 	border: none;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
@@ -68,4 +72,26 @@
 	-webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.8);
 	filter: progid:DXImageTransform.Microsoft.Shadow(color = #2c2c2c, direction = 135, strength = 3);
 	transform: scale(1.1);
+}
+#vox-populi .card,
+#vox-populi .card img {
+	border-radius: 1px;
+}
+
+/* Modal */
+#vox-populi .modal {
+	height: 100%;
+	width: 100%;
+}
+#vox-populi a:focus {
+	border: none;
+}
+#vox-populi .modal-body {
+	text-align: center;
+}
+#img-preview {
+	height: 100%;
+	max-width: 100%;
+    vertical-align: middle;
+	object-fit: contain;
 }
