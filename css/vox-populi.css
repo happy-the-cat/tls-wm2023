@@ -1,15 +1,5 @@
 /* Vox Populi */
 
-/* Text */
-#vox-populi .title {
-	text-transform: full-width;
-	text-align: center; 
-	font-weight: bold;
-}
-#vox-populi .instruction {
-	text-align: center;
-}
-
 /* Styles for mobile */
 @media only screen and (max-width: 575.98px) {
 	#vox-populi {
@@ -35,9 +25,6 @@
 @media screen and (min-width: 768px) { 
 	#vox-populi {
 		margin: 7rem auto;
-	}
-	#vox-populi .instruction {
-		font-size: 1.5em;
 	}
 }
 /* Styles for desktop */
@@ -85,6 +72,16 @@
 #vox-populi .card,
 #vox-populi .card img {
 	border-radius: 1px;
+}
+
+/* Text */
+#vox-populi .title {
+	text-transform: full-width;
+	text-align: center; 
+	font-weight: bold;
+}
+#vox-populi .instruction {
+	text-align: center;
 }
 
 /* Modal */
