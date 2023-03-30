@@ -93,9 +93,7 @@
 	}
 }
 #articles .btn, 
-#articles .btn:hover, 
-#articles .btn:focus, 
-#articles .btn:active {
+#articles .btn:focus {
 	border: none;
 	box-shadow: none;
 }
