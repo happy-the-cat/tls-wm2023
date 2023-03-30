@@ -1,7 +1,6 @@
 /* CSS Variables */
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Inter:wght@500&family=Josefin+Sans&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 :root {
     /* Palette */
@@ -11,14 +10,14 @@
     --pink-2: #FAF2F2;
     /* Font Styles */
     /* MUST ADD FALLBACK FONT FOR OLD BROWSERS w/o using CSS variables */
-    --main-font: "Josefin Sans"; /* Fallback font: Verdana, sans-serif */
-    --footer-font: "Josefin Sans";  /* Fallback font: Garamond, serif */
+    --main-font: "Capriola"; /* Fallback font: Verdana, sans-serif */
+    --footer-font: "Capriola";  /* Fallback font: Garamond, serif */
 }
 
 /* Font Cheat Sheet
-font-family: 'Cardo', serif;
+font-family: 'Capriola', sans-serif;
 font-family: 'Inter', sans-serif;
-font-family: 'Lora', serif;
+font-family: 'Josefin Sans', sans-serif;
 */
 
 html {
