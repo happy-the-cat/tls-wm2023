@@ -155,20 +155,6 @@ Source: https://stackoverflow.com/a/24298427 */
 }
 
 /* Menu */
-/*#menu-instructions {
-    width: 100%;
-    height: auto;
-    padding: 3%;
-}
-
-#menu-instructions p {
-    font: var(--main-font);
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 0.8em;
-}*/
-
 #menu {
     width: 100%;
     height: 25vh;
@@ -222,10 +208,31 @@ Source: https://stackoverflow.com/a/24298427 */
     padding-left: 2.5vmin;
     padding-right: 2.5vmin;
     margin-top: 0;
+    position: relative;
 }
 
 #menu .icon:hover {
     background-color: var(--pink-2);
+}
+
+#menu .icon a[title] {
+    transition: all 1s;
+    align-self: center;
+}
+
+#menu .icon a[title]:hover:after {
+    content: attr(title);
+    position: absolute;
+    width: 100%;
+    height: 115%;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+    color: var(--brown);
+    font-size: small;
+    font-family: var(--main-font);
+    text-align: center;
+    background-color: rgba(250, 242, 242, 0.5); /*--pink-2 with 50% transparency*/
 }
 
 #menu .menu-icon {
@@ -323,6 +330,10 @@ Source: https://stackoverflow.com/a/24298427 */
     #menu .icon {
         height: 40vh;
         padding-top: 2.5vmin;
+    }
+
+    #menu .icon a[title]:hover:after {
+        font-size: 1.5rem;
     }
 
     #menu .menu-icon {
