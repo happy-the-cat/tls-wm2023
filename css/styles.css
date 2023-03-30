@@ -553,7 +553,6 @@ p#women-name{
     flex-direction: row;
     width: 100vw;
     max-width: 100%;
-    /*margin-top: 1.875em;*/
 }
 
 .footer div {
@@ -625,12 +624,7 @@ p#women-name{
         font-size: 75%;
     }
 
-    .footer .text .about {
-        padding-bottom: 0.5em;
-        text-align: justify;
-    }
-
-    .footer .text .credit, .footer .text .redirect {
+    .footer .text .credit, .footer .text .redirect, .footer .text .about {
         padding-bottom: 0.5em;
         text-align: center;
     }
