@@ -1,5 +1,5 @@
 /* CSS Variables */
-@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Inter:wght@500&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
 
 
 :root {
@@ -11,13 +11,11 @@
     /* Font Styles */
     /* MUST ADD FALLBACK FONT FOR OLD BROWSERS w/o using CSS variables */
     --main-font: "Capriola"; /* Fallback font: Verdana, sans-serif */
-    --footer-font: "Capriola";  /* Fallback font: Garamond, serif */
 }
 
 /* Font Cheat Sheet
-font-family: 'Capriola', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
+font-family: Verdana, sans-serif;
+font-family: var(--main-font);
 */
 
 html {
@@ -351,7 +349,8 @@ a {
 }
 
 #content-holder p,li{
-    font-family: var(--main-font), sans-serif;
+    font-family: Verdana, sans-serif;
+    font-family: var(--main-font);
     font-size: 90%;
     color: var(--brown);
     margin: 0;
@@ -475,8 +474,6 @@ p#women-name{
     width: 100vw;
     max-width: 100%;
     /*margin-top: 1.875em;*/
-    font-family: Garamond, serif;  /* Legacy fallback */
-    font-family: var(--footer-font);
 }
 
 .footer div {

@@ -6,7 +6,11 @@
 		width: 90vw;
 	}
 	#articles .card {
-		height: 150px;
+		height: 180px;
+	}
+	#articles .card-title  {
+		/* defines # of lines before text overflow */
+		-webkit-line-clamp: 2;
 	}
 }
 @media only screen and (min-width: 767.99px) {
@@ -15,7 +19,11 @@
 		width: 75vw;
 	}
 	#articles .card {
-		height: 250px;
+		height: 280px;
+	}
+	#articles .card-title  {
+		/* defines # of lines before text overflow */
+		-webkit-line-clamp: 3;
 	}
 }
 
@@ -52,7 +60,7 @@
 }
 
 /* Card Texts */
-/* ellipsis for overflow after n lines 
+/* ellipsis for overflow after n number of lines 
    Source: https://stackoverflow.com/a/41137262 */
 #articles .card-title {
 	display: -webkit-box;
@@ -62,17 +70,11 @@
 	font-weight: bold;
 }
 @media only screen and (max-width: 991.98px) {
-	#articles .card-title  {
-		-webkit-line-clamp: 2;  /* defines # of lines */
-	}
 	#articles .card-text {
 		margin-bottom: -10px;
 	}
 }
 @media only screen and (min-width: 991.99px) {
-	#articles .card-title  {
-		-webkit-line-clamp: 3;  /* defines # of lines */
-	}
 	#articles .card-text {
 		margin-bottom: 0;
 	}
@@ -92,6 +94,6 @@
 		text-decoration-color: var(--brown);
 	}
 }
-#vox-populi a:focus {
+#articles a:focus {
 	border: none;
 }
