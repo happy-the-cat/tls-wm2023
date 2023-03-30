@@ -1,4 +1,4 @@
-<div id="comic-container">
+<div id="online-poptown">
 
     <!-- Uses Bootstrap Carousel -->
     <div id="comic-carousel" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-wrap="false">

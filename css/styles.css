@@ -40,6 +40,22 @@ a {
     text-decoration: none;
 }
 
+/* Nav Bar */
+.navbar {
+    background-color: var(--pink-1);
+}
+
+.collapse{
+    background-color: var(--pink-1);
+}
+
+#nav-logo{
+    width: 4vw;
+    height: 4vw;
+    margin: 0.5vw;
+    object-fit: contain;
+}
+
 /* Header */
 #header {
     width: 100vw;
@@ -74,7 +90,7 @@ a {
 
 @media only screen and (min-width: 1024px){
     #header {
-        height: 100vh;
+        height: 85vh;
         max-height: 100%;
     }
 
@@ -423,7 +439,7 @@ p#women-name{
 }
 
 /* Comic Carousel */
-#comic-container{
+#online-poptown{
     background-color: var(--pink-1);
     width: 100%;
     height: auto;
@@ -446,7 +462,7 @@ p#women-name{
 }
 
 @media screen and (min-width: 768px){
-    #comic-container{
+    #online-poptown{
         margin-top: 10vh;
         margin-bottom: 10vh;
     }
@@ -459,7 +475,7 @@ p#women-name{
     
     .carousel-item img{
         max-width: 100vw;
-        max-height: 100vh;
+        max-height: 85vh;
         object-fit: contain;
         object-position: center;
     }

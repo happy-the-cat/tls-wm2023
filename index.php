@@ -2,6 +2,7 @@
 <html lang="en">
 <?php require_once 'modules/head.php'; ?>
 <body>
+    <?php require_once 'modules/nav-bar.php'; ?>
     <?php require_once 'modules/header.php'; ?>
     <?php require_once 'modules/menu.php'; ?>
     <?php require_once 'modules/vox-populi.php'; ?>
