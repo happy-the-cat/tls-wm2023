@@ -239,12 +239,12 @@ Source: https://stackoverflow.com/a/24298427 */
     height: 115%;
     top: 0;
     left: 0;
-    padding-top: 10%;
+    padding-top: 40%;
     color: var(--brown);
     font-size: small;
     font-family: var(--main-font);
     text-align: center;
-    background-color: rgba(250, 242, 242, 0.5); /*--pink-2 with 50% transparency*/
+    background-color: rgba(250, 242, 242, 0.7); /*--pink-2 with 50% transparency*/
 }
 
 #menu .menu-icon {
@@ -318,10 +318,6 @@ Source: https://stackoverflow.com/a/24298427 */
 }
 
 @media screen and (min-width: 768px){
-    /*#menu-instructions p {
-        font-size: 1.5em;
-    }*/
-
     #menu {
         height: 50vh;
     }
@@ -346,6 +342,7 @@ Source: https://stackoverflow.com/a/24298427 */
 
     #menu .icon a[title]:hover:after {
         font-size: 1.5rem;
+        text-shadow: 2px 2px 0px white;
     }
 
     #menu .menu-icon {
@@ -360,7 +357,7 @@ Source: https://stackoverflow.com/a/24298427 */
 
     #menu-slider .up {
         height: 33vh;
-        margin-top: 4vh;/*-1.2em;*/
+        margin-top: 4vh;
     }
 
     #menu-slider .sports {
