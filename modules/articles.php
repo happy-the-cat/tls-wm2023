@@ -48,8 +48,8 @@ $_ARTICLE_INFO = fetchInfo($wp_url);
 
 ?>
 
-<!------------------------------------------------------------------------------>
-<!-- Start of HTML for the articles card grid -->
+
+<!-- Articles Card Grid -->
 <section id="articles" class="container">
 	<h2>READ MORE:</h2>
 
@@ -72,7 +72,7 @@ $_ARTICLE_INFO = fetchInfo($wp_url);
 					<div class="card-img" style="background-image: url(<?php echo $article_image; ?>);">
 					</div>
 					<div class="card-img-overlay d-flex flex-column justify-content-end"> 
-						<h4 class="card-title"><?php echo $article_title; ?></h4>
+						<h5 class="card-title"><?php echo $article_title; ?></h5>
 						<p class="card-text"><small><?php echo $article_date; ?></small></p>
 						<a href="<?php echo $article_link; ?>" class="btn stretched-link"></a>
 					</div>
