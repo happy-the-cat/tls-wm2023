@@ -516,7 +516,15 @@ p#women-name{
     bottom: -7vh;
 }
 
-@media screen and (min-width: 768px){
+.comic-container .title {
+	font-variant: small-caps;
+	text-align: center; 
+	font-weight: bold;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 500px){
     #online-poptown{
         margin-top: 10vh;
         margin-bottom: 10vh;

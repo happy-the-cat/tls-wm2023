@@ -1,5 +1,6 @@
 <section id="online-poptown">
     <div class="comic-container">
+        <h1 class="title">Women's Month Poptown</h1>
         <!-- Uses Bootstrap Carousel -->
         <div id="comic-carousel" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-wrap="false">
             <div class="carousel-indicators">
