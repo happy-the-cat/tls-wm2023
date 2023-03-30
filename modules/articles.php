@@ -85,7 +85,7 @@ $_ARTICLE_INFO = fetchInfo($wp_url);
 	<!-- View All button -->
 	<h4 class="text-end" style="margin: auto; padding-right: 24px;">
 		<a href="https://thelasallian.com/kicker/women/" target=”_blank”>
-			View All ➔
+			View All ➜
 		</a>
 	</h4>
 </section>
