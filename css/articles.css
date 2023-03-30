@@ -94,6 +94,10 @@
 		text-decoration-color: var(--brown);
 	}
 }
-#articles a:focus {
+#articles .btn, 
+#articles .btn:hover, 
+#articles .btn:focus, 
+#articles .btn:active {
 	border: none;
+	box-shadow: none;
 }
