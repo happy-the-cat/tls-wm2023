@@ -52,6 +52,20 @@ a {
 	}
 }
 
+/* Add some invisible block before the sections linked in navbar to 
+accomodate navbar, such that upon click of a nav buttons, the top 
+of the section is shown and not cropped.
+Source: https://stackoverflow.com/a/24298427 */
+#vox-populi::before,
+#online-poptown::before,
+#articles::before {
+    content: '';
+    display: block;
+    height:      100px;
+    margin-top: -100px;
+    visibility: hidden;
+}
+
 /* Nav Bar */
 .navbar, 
 .collapse {
@@ -74,17 +88,6 @@ a {
     height: 58px;
     margin: auto 0.5vw;
     object-fit: contain;
-}
-
-/* prevent  */
-#vox-populi::before,
-#online-poptown::before,
-#articles::before {
-    content: '';
-    display: block;
-    height:      100px;
-    margin-top: -100px;
-    visibility: hidden;
 }
 
 /* Header */
@@ -476,7 +479,6 @@ p#women-name{
     height: auto;
     max-height: 105vh;
     margin: 0;
-    /* margin-top: 10vh; */
     padding: 0;
     padding-bottom: 5vh;
 }
