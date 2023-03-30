@@ -118,11 +118,15 @@ a {
     top: 0;
     position: relative;
     z-index: 1;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: visible;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+}
+
+#menu #menu-icons:hover {
+    overflow-x: auto;
 }
 
 #menu .icon {
@@ -192,6 +196,20 @@ a {
 
 #menu #nav-next {
     right: 0.1%;
+}
+
+/* hide scrollbar on mobile */
+@media screen and (max-width: 768px) {
+    #menu #menu-icons::-webkit-scrollbar{
+        display: none;
+        width: 0 !important;
+    }
+    
+    #menu #menu-icons {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow: -moz-scrollbars-none;
+    }
 }
 
 @media screen and (min-width: 768px){
