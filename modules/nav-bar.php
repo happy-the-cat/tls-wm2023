@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+<nav class="navbar navbar-expand-md sticky-top navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="./assets/TLS Logo Star.svg" alt="The LaSallian Logo" id="nav-logo" />
@@ -9,7 +9,7 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarWM">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
                     <a class="nav-link" id="l-vox-populi" href="#vox-populi">Vox Populi</a>
                 </li>

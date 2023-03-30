@@ -39,17 +39,9 @@ a {
 }
 
 /* Margin styles for sections (vox-populi, poptown, articles) */
-@media only screen and (max-width: 767.98px) {
-	section {
-		margin: 5rem auto;
-	}
+section {
+    margin: 8rem auto;
 }
-@media only screen and (min-width: 767.99px) {
-	section {
-		margin: 8rem auto;
-	}
-}
-
 /* Add some invisible block before the sections linked in navbar to 
 accomodate navbar, such that upon click of a nav buttons, the top 
 of the section is shown and not cropped.
@@ -69,6 +61,17 @@ Source: https://stackoverflow.com/a/24298427 */
     height:      80px;
     margin-top: -80px;
     visibility: hidden;
+}
+@media only screen and (max-width: 767.98px) {
+	section {
+		margin: 5rem auto;
+	}
+    #vox-populi::before,
+    #online-poptown::before,
+    #articles::before {
+        height:      300px;
+        margin-top: -300px;
+    }
 }
 
 /* Nav Bar */
