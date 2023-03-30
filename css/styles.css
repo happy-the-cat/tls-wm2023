@@ -138,15 +138,11 @@ a {
     top: 0;
     position: relative;
     z-index: 1;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: visible;
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-}
-
-#menu #menu-icons:hover {
-    overflow-x: auto;
 }
 
 #menu .icon {
