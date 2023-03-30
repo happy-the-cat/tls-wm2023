@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="./assets/TLS Logo Star.svg" alt="The LaSallian Logo" id="nav-logo" />

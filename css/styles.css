@@ -76,7 +76,7 @@ Source: https://stackoverflow.com/a/24298427 */
 /* Nav Bar */
 .navbar, 
 .collapse {
-    background-color: var(--pink-1);
+    background-color: var(--brown);
 }
 
 .nav-item {
