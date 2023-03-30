@@ -48,6 +48,7 @@ a {
     height: fit-content;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 #header #banner-img {
@@ -55,12 +56,31 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-down {
+    position: absolute;
+    z-index: 2;    
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: 0;
+    font-size: 2em;
 }
 
 @media only screen and (min-width: 1024px){
     #header {
         height: 100vh;
         max-height: 100%;
+    }
+
+    #banner-down {
+        font-size: 3em;
     }
 }
 
@@ -274,6 +294,37 @@ a {
     height: auto;
     padding: 0;
     margin: 0;
+    position: relative;
+}
+
+#home-btn {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 15vw;
+    width: 15vw;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--pink-2);
+    color: var(--brown);
+    font-size: 10vw;
+    text-align: center;
+    box-shadow: 3px 3px;
+    margin: 0;
+    padding: 0;
+    margin-top: -100vh;
+    bottom: 10vw;
+    left: 100%;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+}
+
+#home-btn a{
+    color: inherit;
+}
+
+#home-btn:hover {
+    background-color: var(--brown);
+    color: white;
 }
 
 #img-holder {
@@ -319,16 +370,6 @@ p#women-name{
     padding-top: 5%;
 }
 
-/*div#p-advocacy{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 0;
-    margin: 0;
-    width: auto;
-    height: auto;
-}*/
-
 #content-pt2{
     background-color: var(--pink-0);
 }
@@ -346,6 +387,17 @@ p#women-name{
     #women-container {
         display: flex;
         flex-direction: row;
+    }
+
+    #home-btn {
+        height: 6vw;
+        width: 6vw;
+        font-size: 4vw;
+        text-align: center;
+        box-shadow: 3px 3px;
+        bottom: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 3vw;
     }
     
     #img-holder {
@@ -380,9 +432,11 @@ p#women-name{
     background-color: var(--pink-1);
     width: 100%;
     height: auto;
-    max-height: 100vh;
+    max-height: 105vh;
     margin: 0;
     margin-top: 10vh;
+    padding: 0;
+    padding-bottom: 5vh;
 }
 
 #comic-carousel{
@@ -390,6 +444,10 @@ p#women-name{
     width: 100vw;
     padding: 0;
     margin: auto;
+}
+
+.carousel-indicators{
+    bottom: -7vh;
 }
 
 @media screen and (min-width: 768px){

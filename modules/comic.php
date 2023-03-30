@@ -2,6 +2,13 @@
 
     <!-- Uses Bootstrap Carousel -->
     <div id="comic-carousel" class="carousel slide carousel-dark" data-bs-ride="false" data-bs-wrap="false">
+    <div class="carousel-indicators">
+        <?php 
+        for($i=1; $i<11; $i++){
+        ?>
+        <button type="button" data-bs-target="#comic-carousel" data-bs-slide-to="<?php echo $i-1 ?>" class="<?php if($i == 1){ echo "active"; } ?>" aria-current="true" aria-label="<?php echo "Slide $i"?>"></button>
+        <?php } ?>
+    </div>
     <div class="carousel-inner">
         <?php 
         for($i=1; $i<11; $i++){
