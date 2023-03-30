@@ -292,8 +292,37 @@ a {
     height: auto;
     padding: 0;
     margin: 0;
-    z-index: 1;
     position: relative;
+}
+
+#home-btn {
+    position: -webkit-sticky;
+    position: sticky;
+    height: 15vw;
+    width: 15vw;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--pink-2);
+    color: var(--brown);
+    font-size: 10vw;
+    text-align: center;
+    box-shadow: 3px 3px;
+    margin: 0;
+    padding: 0;
+    margin-top: -100vh;
+    bottom: 10vw;
+    left: 100%;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+}
+
+#home-btn a{
+    color: inherit;
+}
+
+#home-btn:hover {
+    background-color: var(--brown);
+    color: white;
 }
 
 #img-holder {
@@ -356,6 +385,17 @@ p#women-name{
     #women-container {
         display: flex;
         flex-direction: row;
+    }
+
+    #home-btn {
+        height: 6vw;
+        width: 6vw;
+        font-size: 4vw;
+        text-align: center;
+        box-shadow: 3px 3px;
+        bottom: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 3vw;
     }
     
     #img-holder {

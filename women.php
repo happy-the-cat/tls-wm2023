@@ -42,6 +42,9 @@
             </div>
         </div>
     </div>
+
+    <button id="home-btn"><a href="index.php"><i class="bi bi-house-heart-fill"></i></a></button>
+
     <?php require_once 'modules/footer.php'; ?>
 </body>
 </html>
