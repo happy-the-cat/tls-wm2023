@@ -45,6 +45,7 @@ a {
     height: fit-content;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 #header #banner-img {
@@ -52,12 +53,31 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-down {
+    position: absolute;
+    z-index: 2;    
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: 0;
+    font-size: 2em;
 }
 
 @media only screen and (min-width: 1024px){
     #header {
         height: 100vh;
         max-height: 100%;
+    }
+
+    #banner-down {
+        font-size: 3em;
     }
 }
 
@@ -272,6 +292,8 @@ a {
     height: auto;
     padding: 0;
     margin: 0;
+    z-index: 1;
+    position: relative;
 }
 
 #img-holder {
@@ -316,16 +338,6 @@ p#women-name{
     font-weight: bold;
     padding-top: 5%;
 }
-
-/*div#p-advocacy{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 0;
-    margin: 0;
-    width: auto;
-    height: auto;
-}*/
 
 #content-pt2{
     background-color: var(--pink-0);
