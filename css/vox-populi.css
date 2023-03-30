@@ -17,7 +17,7 @@
 /* Styles for tablet */
 @media only screen and (min-width: 575.99px) {
 	#vox-populi {
-		margin: 5rem auto;
+		/* margin: 5rem auto; */
 	}
 	/* Uneven start for 1st image */
 	#vox-populi .col-6:nth-child(1) {
@@ -30,7 +30,7 @@
 }
 @media screen and (min-width: 768px) { 
 	#vox-populi {
-		margin: 7rem auto;
+		/* margin: 7rem auto; */
 	}
 	#vox-populi .title {
 		text-transform: full-width;
