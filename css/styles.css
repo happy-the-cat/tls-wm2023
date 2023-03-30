@@ -40,20 +40,51 @@ a {
     text-decoration: none;
 }
 
+/* Margin styles for sections (vox-populi, poptown, articles) */
+@media only screen and (max-width: 767.98px) {
+	section {
+		margin: 5rem auto;
+	}
+}
+@media only screen and (min-width: 767.99px) {
+	section {
+		margin: 8rem auto;
+	}
+}
+
 /* Nav Bar */
-.navbar {
+.navbar, 
+.collapse {
     background-color: var(--pink-1);
 }
 
-.collapse{
-    background-color: var(--pink-1);
+.nav-item {
+    font-size: large;
+    text-align: center;
+    margin: 3px;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
 }
 
 #nav-logo{
-    width: 4vw;
-    height: 4vw;
-    margin: 0.5vw;
+    width: 58px;
+    height: 58px;
+    margin: auto 0.5vw;
     object-fit: contain;
+}
+
+/* prevent  */
+#vox-populi::before,
+#online-poptown::before,
+#articles::before {
+    content: '';
+    display: block;
+    height:      100px;
+    margin-top: -100px;
+    visibility: hidden;
 }
 
 /* Header */
@@ -439,13 +470,13 @@ p#women-name{
 }
 
 /* Comic Carousel */
-#online-poptown{
+.comic-container{
     background-color: var(--pink-1);
     width: 100%;
     height: auto;
     max-height: 105vh;
     margin: 0;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     padding: 0;
     padding-bottom: 5vh;
 }
