@@ -32,6 +32,9 @@
 	#vox-populi {
 		margin: 7rem auto;
 	}
+	#vox-populi .title {
+		text-transform: full-width;
+	}
 }
 /* Styles for desktop */
 @media only screen and (min-width: 991.99px) {
@@ -82,7 +85,6 @@
 
 /* Text */
 #vox-populi .title {
-	text-transform: full-width;
 	font-variant: small-caps;
 	text-align: center; 
 	font-weight: bold;

@@ -1,7 +1,6 @@
 <section id="vox-populi">
 	<h1 class="title">Vox Populi: Women in Work</h1>
-	<p class="instruction">Click on an image to enlarge it!</p>
-
+	
 	<div class="row grid" data-masonry='{"percentPosition": true }'>
 
 		<!-- PHP For Loop for retrieving image links and generating image cards for masonry -->
