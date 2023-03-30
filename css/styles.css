@@ -378,9 +378,11 @@ p#women-name{
     background-color: var(--pink-1);
     width: 100%;
     height: auto;
-    max-height: 100vh;
+    max-height: 105vh;
     margin: 0;
     margin-top: 10vh;
+    padding: 0;
+    padding-bottom: 5vh;
 }
 
 #comic-carousel{
@@ -388,6 +390,10 @@ p#women-name{
     width: 100vw;
     padding: 0;
     margin: auto;
+}
+
+.carousel-indicators{
+    bottom: -7vh;
 }
 
 @media screen and (min-width: 768px){
