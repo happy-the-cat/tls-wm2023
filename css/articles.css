@@ -2,7 +2,6 @@
 /* margin for mobile & desktop */
 @media only screen and (max-width: 767.98px) {
 	#articles {
-		/* margin: 5rem auto; */
 		width: 90vw;
 	}
 	#articles .card {
@@ -15,7 +14,6 @@
 }
 @media only screen and (min-width: 767.99px) {
 	#articles {
-		/* margin: 7rem auto; */
 		width: 75vw;
 	}
 	#articles .card {
