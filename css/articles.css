@@ -86,6 +86,12 @@
 	text-decoration: underline 0.08em rgba(0, 0, 0, 0);
   	transition: text-decoration-color 300ms;
 }
-#articles a:hover {
-	text-decoration-color: var(--brown);
+@media (hover) {
+	/* When hover is supported */
+	#articles a:hover {
+		text-decoration-color: var(--brown);
+	}
+}
+#vox-populi a:focus {
+	border: none;
 }
