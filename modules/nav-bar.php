@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md sticky-top navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="./assets/TLS Logo Star.svg" alt="The LaSallian Logo" id="nav-logo" />
+            <img src="./assets/TLS Logo Small.png" alt="The LaSallian Logo" id="nav-logo" />
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWM" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
