@@ -607,6 +607,10 @@ p#women-name{
     font-size: 0.9em;
 }
 
+.footer .text .credit {
+    font-size: 0.8em;
+}
+
 .footer .text p {
     text-align: justify;
     color: white;
